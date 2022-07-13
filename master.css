@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Helvetica;
+  src: 'Helvetica.tff';
+}
+
+:root {
+  --rich-black-fogra: #111213ff;
+  --eerie-black: #212224ff;
+  --quick-silver: #a1a1a1ff;
+  --white: #ffffffff;
+  --blue-crayola: #2f71e8ff;
+  --cyan-process: #29b9f0ff;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+* {
+    color: var(--white);
+}
+
+body {
+  margin: 0px;
+  background: var(--rich-black-fogra);
+
+  font-family: Helvetica;
+}
+
+.panel {
+  background: var(--eerie-black);
+  width: 320px;
+  height: 100%;
+  position: absolute;
+  border-right-width: 2px;
+  border-right-color: var(--blue-crayola);
+  border-right-style: solid;
+}
+
+
+.panel div {
+  position: absolute;
+  bottom: 1px;
+  height: 42px;
+  background: var(--rich-black-fogra);
+  width: 100%;
+}
+
+.body {
+  margin: 0px;
+  margin-left: 320px;
+}
+
+iframe {
+  margin: 0px;
+  border: 0px;
+}
